@@ -1,0 +1,435 @@
+/*login*/
+.Login {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #44546a;
+}
+.Rectangle-1 {
+    position: absolute;
+  z-index: 2;
+  width: 500px;
+  height: 560px;
+  margin-top: 2%;
+  margin-left: 30%;
+  background-color: #ffffff;
+}
+.recordarcontraseña{
+  position: absolute;
+   text-align: center;
+   z-index: 3;
+   right: 175px;
+   top: 450px;
+}
+.Logo {
+  position: absolute;
+  z-index: 3;
+  margin-left: 30%;
+  width: 199px;
+  height: 193px;
+}
+.Rectangle-4 {
+  position: absolute;
+  z-index: 3;
+  left: 80px;
+  top: 375px;
+  text-align: center;
+  width: 336px;
+  height: 49px;
+  background-color: #c4c4c4;
+  
+}
+.Rectangle-5 {
+  position: absolute;
+  z-index: 3;
+  left: 85px;
+  top: 250px;
+  text-align: center;
+  width: 336px;
+  height: 49px;
+  background-color: #c4c4c4;
+  
+}
+.Rectangle-6 {
+  position: absolute;
+  z-index: 3;
+  left: 80px;
+  top: 310px;
+  text-align: center;
+  width: 336px;
+  height: 49px;
+  background-color: #c4c4c4;
+  
+}
+.Rectangle-7 {
+  position: absolute;
+  z-index: 5;
+  left: 110px;
+  top: 140px;
+  text-align: center;
+  width: 300px;
+  height: 49px;
+  background-color: #fffefd;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.btn_ingresar {
+  position: absolute;
+  z-index: 3;
+  top:480px;
+  left:128px;
+  color: #ffffff;
+  width: 259px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #44546a;
+}
+.btn_ingresar2 {
+  position: absolute;
+  top:230px;
+  left:200px;
+  z-index: 5;
+  color: #0c0202;
+  width: 120px;
+  height: 45px;
+  background-color: #5B9BD5;;
+}
+.Rectangle-2{
+  position: absolute;
+  z-index: 5;
+  top:130px;
+  left: -20px;
+  width: 530px;
+  height: 300px;
+  border-radius: 20px;
+  background-color:#c4c4c4;
+}
+#recordarcontraseña{
+    display: none;
+}
+.textrecor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+   text-align: center;
+}
+.icon-cross{
+  position: absolute;
+  left:490px;
+  top:20px;
+}
+/*Fin login*/
+
+/*Home Admin*/
+
+ .nav-item{
+  left:980px;
+}
+ #desplegar{
+   position:absolute;
+   z-index: 5;
+   list-style-type: none;
+   height: 300px;
+   width: 300px;
+   left:0px;
+  background-color:#f9eef2;
+  top:45px;
+  border-radius: 10px;
+  margin-right: 200px;
+}
+
+
+/*Perfil usuario*/
+
+.rectangulomp{
+position: absolute;
+z-index: 1;
+width: 1295px;
+height: 544px;
+margin:1%;
+background-color: #c4c4c4;
+}
+
+.rectangulomp2{
+position: absolute;
+z-index: 2;
+width: 1040px;
+height: 200px;
+margin:1%;
+left:210px;
+border-radius: 20px;
+background-color:#44546a;
+}
+.fp{
+position: absolute;
+z-index: 3;
+left:20px;
+width: 230px;
+height: 200px;
+margin:1%;
+}
+.rectangulomp3{
+position: absolute;
+z-index: 2;
+top:180px;
+left:20px;
+width: 230px;
+height: 330px;
+margin:1%;
+border-radius: 20px;
+background-color:#44546a;
+}
+.cambiocontraseña{
+position: absolute;
+top:50px;
+left:25px;
+outline: none;
+z-index: 3;
+color: #0f0101;
+width: 180px;
+height: 50px;
+border-radius: 10px;
+color:#c4c4c4;
+background-color: #5d615c;
+}
+.cambiodatos{
+position: absolute;
+top:150px;
+left:25px;
+outline: none;
+z-index: 3;
+color: #0f0101;
+width: 180px;
+height: 50px;
+border-radius: 10px;
+color:#c4c4c4;
+background-color: #5d615c;
+}
+
+/*empleados*/
+
+.empleadoimg{
+position: absolute;
+z-index: 3;
+left:780px;
+width: 400px;
+height: 470px;
+top:190px;
+}
+.edit{
+position:absolute;
+z-index: 3;
+left:200px;
+top:90px;
+
+}
+.editT{
+
+text-align:center;
+}
+.select1{
+width:30%;
+padding: 4px 200px 12px 0;
+border:1px solid #f6f6f6;
+border-radius:3px;
+background-color:white;
+margin:5px 70px;
+display:inline-block;
+}
+form input[type="text"],select{
+width:30%;
+padding: 4px 200px 12px 0;
+border:1px solid #f6f6f6;
+border-radius:3px;
+background-color:white;
+margin:5px 70px;
+display:inline-block;
+  
+}
+.label1{
+padding: 6px 69px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+.label2{
+padding: 6px 43px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+.label3{
+padding: 6px 25px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+.label4{
+padding: 6px 42px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+.label5{
+padding: 6px 25px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+.label6{
+padding: 6px 109px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+.label7{
+padding: 6px 118px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+.label8{
+padding: 6px 130px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+.label9{
+padding: 6px 145px 12px 0;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+/*Informes*/
+
+
+
+form{
+  width:1000px;
+padding:16px;
+  border-radius:10px;
+margin:auto;
+
+}
+
+form input[type="date"],select{
+width:180px;
+  padding: 4px 41px 12px 0;
+border:1px solid #f6f6f6;
+border-radius:3px;
+background-color:#f6f6f6;
+margin:8px 0;
+  display:inline-block;
+
+  
+}
+
+form label{
+  padding: 6px 41px 12px 0;
+width:100%;
+font-weight:bold;
+  display: inline;
+  margin: 0;
+  background-color:rgb(174, 171, 171);
+}
+form button[type="submit"]{
+width:100%;
+padding:8px 16px;
+margin-top:40px;
+border:1px solid #000;
+border-radius:5px;
+display:block;
+color:black;
+background-color:#DEDE00;
+}
+form button[type="submit"]:hover{
+cursor:pointer;
+}
+/*Sede*/
+ 
+
+/*parte maico*/
+/*
+#B20000
+#DEDE00
+#F9EEF2
+*/
+.mheader{
+  -moz-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+  -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+  box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    /*filter: blur(1px);*/
+    background-image: url(https://img.freepik.com/vector-gratis/patron-fisuras-carne-blanca-boceto-carne-res-cerdo_1284-6067.jpg?size=338&ext=jpg);
+  }
+  
+  .mavatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .muser-name{
+    font-size: 30px;
+    margin-top: 14px;
+    color: #B20000
+    ;
+  }
+  
+  .socials{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .socials li{
+    display: inline-block;
+    margin: 25px;
+    
+  }
+  
+  .socials a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .socials h5{
+    text-decoration: none;
+    color: #B20000;
+  }
+  
+  .socials a:hover, p:hover{
+    color: #000000;
+  }
+  
+  .mlinks{
+    text-align: center;
+  }
+  
+  .mbody{
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=#DEDE00ff&noise=626262&density=18&opacity=25);
+    height: 300px;
+  }
+
+  /*detalles nuevo pedido*/
+
+  .factura-titulo{
+    color: #B20000;
+  }
+
+  .container-fluid{
+    padding-top: 15px;
+  }
+
+  
+  
